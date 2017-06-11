@@ -23,7 +23,7 @@ Migrate mongodb collection to elastic a.k.a elasticsearch
    https://hub.docker.com/_/mongo/
    
 # Usage
-  1. git@github.com:rockrotem/mongodb-elastic-migrator.git
+  1. git clone git@github.com:rockrotem/mongodb-elastic-migrator.git
   2. cd mongodb-elastic-migrator
   3. edit your configuration file locate: config/index.js
      Example:
