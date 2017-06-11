@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var migrate = require('../source/migrate');
+var config = require('../config');
+
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
+migrate.run(config.collections);

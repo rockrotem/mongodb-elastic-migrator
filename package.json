@@ -1,0 +1,30 @@
+{
+  "name": "mongo-elastic-migrator",
+  "version": "1.0.0",
+  "description": "MongoDB to Elastic data migration",
+  "main": "source/migrate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node source/migrate.js"
+  },
+  "keywords": [
+    "mongodb",
+    "elastic",
+    "search",
+    "export",
+    "import"
+  ],
+  "author": "rotem bloom",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~0.8.0",
+    "mongojs": "~2.4.0",
+    "colors": "~0.6.2",
+    "through": "~2.3.4",
+    "underscore": "~1.6.0",
+    "request": "~2.34.0",
+    "single-line-log": "~0.3.1",
+    "elasticsearch": "~13.0.1",
+    "moment": "~2.6.0"
+  }
+}
