@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const migrate = require('../source/migrate');
+const migrate = require('../lib/migrate');
 const config = require('../config');
 
 migrate.run(config.collections);
