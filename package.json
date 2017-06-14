@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run test:e2e",
     "test:e2e": "mocha --no-timeouts test/end2end/*",
-    "run": "node source/migrate.js",
+    "run": "node bin/migrate.js",
     "lint": "eslint ./*.js ./test/**/*.js ./config/**/*.js ./lib/**/*.js"
   },
   "repository": {
