@@ -1,5 +1,7 @@
 # mongodb-elastic-migrator
 
+[![Travis-ci Build Status](https://api.travis-ci.org/rockrotem/mongodb-elastic-migrator.svg?branch=master)](https://api.travis-ci.org/rockrotem/mongodb-elastic-migrator)
+
 Migrate mongodb collection to elastic a.k.a elasticsearch.
 This project will give you a kick start to migrate your mongodb collections to [elastic](https://www.elastic.co/).
 
