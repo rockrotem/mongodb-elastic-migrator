@@ -83,6 +83,3 @@ This project will give you a kick start to migrate your mongodb collections to [
   
 # License
 MIT
-  
-  
-  
