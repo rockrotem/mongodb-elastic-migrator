@@ -1,6 +1,7 @@
 # mongodb-elastic-migrator
 
-Migrate mongodb collection to elastic a.k.a elasticsearch
+Migrate mongodb collection to elastic a.k.a elasticsearch.
+This project will give you a kick start to migrate your mongodb collections to [elastic](https://www.elastic.co/).
 
 # Prerequisite
  - Install docker and get elastic docker image. The Docker image can be retrieved with the following command:
@@ -65,4 +66,21 @@ Migrate mongodb collection to elastic a.k.a elasticsearch
   
   example output:
   ![Alt text](screen-shot.png?raw=true "migrate output")
+  
+# Run Tests
+  There is one end to end test who does the following:
+  * pull and run elastic docker image: docker.elastic.co/elasticsearch/elasticsearch:5.4.1
+  * pull and run mongodb docker image: mongo:3.3
+  (it uses: docker-compose-mocha package in order to run docker images, look at test/e2e-tools folder)
+  * Add authors documents to mongodb
+  * migrate authors collection data to elastic
+  * search for results from elastic
+  
+# People
+  [Rotem Bloom](https://github.com/rockrotem)
+  
+# License
+MIT
+  
+  
   
